@@ -1,8 +1,10 @@
 @import '~antd/dist/antd.css';
+@import './css/variable';
 
-.App {
-  background: red;
-  .h {
-    background: bisque;
-  }
+.container {
+  background-color: $body-color;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }

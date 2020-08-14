@@ -1,0 +1,24 @@
+@import '../../css/variable';
+
+.header-container {
+  width: 100%;
+  height: 4rem;
+  background: $head-color;
+  // box-sizing: border-box;
+  box-shadow: 0px 7px 50px -7px #0b3a50;
+  // z-index: 999;
+  display: flex;
+  flex-direction: row;
+  .icon-logo {
+    font-size: 2.2rem;
+    color: white;
+    margin-top: 0.8rem;
+    margin-left: 1.5rem;   
+  }
+  .word-logo {
+    font: normal 1.5rem Arial;
+    color: white;
+    margin-top: 1rem;
+    margin-left: 1.5rem;   
+  }
+}

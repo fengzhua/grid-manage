@@ -1,0 +1,47 @@
+@import '../../css/variable';
+
+.common-grid-bar {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  margin-left: 1.5rem ;
+  margin-top: 1rem;
+  .business-type {
+    color: #ffc526;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 1.5rem;
+  }
+  
+  .k-dropdown-color {
+    background-color: $head-color;
+    border: 1px solid $border-color;
+    color: white;
+    font-size: 14px; 
+    // border-radius: 0px;  
+   
+  }
+  .k-dropdown-border {
+    border-bottom-right-radius: 0; 
+    border-top-right-radius: 0;
+  }
+
+  .k-dropdown-show {
+    padding-left: 1rem;
+    border-left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    &:hover {
+      cursor: default;
+    }  
+  }
+
+  .k-icon-arrow-down {
+    svg {
+      font: normal 1rem Arial;
+      margin-bottom: -3px;
+      
+
+    }
+  }
+}
